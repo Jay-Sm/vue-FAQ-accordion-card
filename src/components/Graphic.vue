@@ -1,5 +1,5 @@
 <template>
-    <img class="box-graphic" src=".././assets/images/illustration-box-desktop.svg" alt="">
+  <img class="box-graphic" src=".././assets/images/illustration-box-desktop.svg" alt="">
   <div class="wrapper">
     <img class="woman-graphic" src=".././assets/images/illustration-woman-online-desktop.svg" alt="">
     <img class="pattern-graphic" src=".././assets/images/bg-pattern-desktop.svg" alt="">
@@ -11,6 +11,8 @@
   height: 100%;
   width: 50%;
   position: relative;
+  user-select: none;  
+  pointer-events: none;
   overflow: hidden;
 }
 
@@ -20,6 +22,8 @@
   top: 183px;
   left: -97px;
   z-index: 3;
+  user-select: none;
+  pointer-events: none;
 }
 
 .woman-graphic {

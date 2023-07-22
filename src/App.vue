@@ -6,6 +6,10 @@
 </script>
 
 <style>
+:root{
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
 html{
   height: 100%;
 }
