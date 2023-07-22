@@ -80,6 +80,10 @@ function addSelectedClass(event) {
   cursor: pointer;
 }
 
+.question:hover {
+  color: #f47c57;
+}
+
 .question img {
   width: 10px;
   height: 7px;
@@ -93,5 +97,9 @@ function addSelectedClass(event) {
 
 .selected {
   font-weight: 700;
+}
+
+.selected:hover {
+  color: #000000;
 }
 </style>

@@ -25,4 +25,11 @@ import Graphic from '../components/Graphic.vue'
   justify-content: center;
   position: fixed;
 }
+
+@media (max-width: 930px) {
+  .main {
+    width: 840px;
+  }
+
+}
 </style>

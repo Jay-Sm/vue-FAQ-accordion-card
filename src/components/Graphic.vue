@@ -11,7 +11,7 @@
   height: 100%;
   width: 50%;
   position: relative;
-  user-select: none;  
+  user-select: none;
   pointer-events: none;
   overflow: hidden;
 }
