@@ -1,13 +1,28 @@
 <template>
-  <h1>Main View</h1>
+  <div class="main">
+    <Graphic />
+    <Questions />
+  </div>
 </template>
 
 <script setup>
+import Questions from '../components/Questions.vue'
+import Graphic from '../components/Graphic.vue'
 
 </script>
 
-<style scoped>
-  h1 {
-    margin: 0px;
-  }
+<style>
+.main {
+  width: 900px;
+  height: 500px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 23px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
 </style>
