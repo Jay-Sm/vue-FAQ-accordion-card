@@ -8,10 +8,11 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/vue-FAQ-accordion-card/',
+  base: '/vue-FAQ-accordion-card',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  
 })
